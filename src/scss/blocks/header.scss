@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__col {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header {
+    &__menu, &__socials{
+      display: none;
+    }
+  }
+}
+
